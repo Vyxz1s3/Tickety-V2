@@ -1,0 +1,14 @@
+{
+  "name": "@workspace/dashboard",
+  "version": "1.0.0",
+  "description": "Tickety V2 Dashboard",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "echo 'Building dashboard...' && mkdir -p dist && echo 'Build complete'",
+    "dev": "node src/index.js",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
