@@ -1,0 +1,14 @@
+{
+  "name": "@workspace/root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tickety V2 monorepo",
+  "scripts": {
+    "build": "pnpm --filter @workspace/dashboard run build",
+    "dev": "pnpm --filter @workspace/dashboard run dev",
+    "start": "pnpm --filter @workspace/dashboard run start"
+  },
+  "devDependencies": {
+    "pnpm": "^9.0.0"
+  }
+}
