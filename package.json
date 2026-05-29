@@ -6,7 +6,9 @@
   "scripts": {
     "build": "pnpm --filter @workspace/dashboard run build",
     "dev": "pnpm --filter @workspace/dashboard run dev",
-    "start": "pnpm --filter @workspace/dashboard run start"
+    "start": "pnpm --filter @workspace/dashboard run start",
+    "bot:dev": "pnpm --filter @workspace/discord-bot run dev",
+    "bot:start": "pnpm --filter @workspace/discord-bot run start"
   },
   "devDependencies": {
     "pnpm": "^9.0.0"
